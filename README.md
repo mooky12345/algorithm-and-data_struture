@@ -6,11 +6,11 @@
 4 [CF Packmen](https://codeforces.com/contest/847/problem/E)  
 5 [CF 又一個區間問題](https://codeforces.com/group/CaGRR8aOQ6/contest/341902/problem/C)    
 dp  
-樹
-暴搜
-圖論 
-進階資料結構  
-數論  
-
+樹  
+暴搜  
+圖論   
+進階資料結構    
+數論    
+幾何  
 
 
