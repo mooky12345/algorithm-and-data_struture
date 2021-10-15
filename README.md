@@ -6,11 +6,12 @@
 4 [CF Packmen](https://codeforces.com/contest/847/problem/E)  
 5 [CF 又一個區間問題](https://codeforces.com/group/CaGRR8aOQ6/contest/341902/problem/C)    
 dp  
-1 []()  
-2 []()  
-3 []()  
-4 []()  
-5 [toij 建設人工島](https://tioj.ck.tp.edu.tw/problems/2189)  
+1 [AT Educational DP Contest C - Vacation](https://atcoder.jp/contests/dp/tasks/dp_c)
+2 [AT Educational DP Contest I - Coins](https://atcoder.jp/contests/dp/tasks/dp_i)
+3 [toij 建設人工島](https://tioj.ck.tp.edu.tw/problems/2189)  
+4 []()
+5 [zerojubge 278: 4. 美食博覽會](https://zerojudge.tw/ShowProblem?problemid=g278)  
+
 樹   
 1 []()  
 2 []()  
