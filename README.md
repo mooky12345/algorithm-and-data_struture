@@ -4,7 +4,7 @@
 2 [AT Contrast](https://atcoder.jp/contests/abc178/tasks/abc178_f)  
 3 [AT Packing Under Range Regulations](https://atcoder.jp/contests/abc214/tasks/abc214_e)  
 4 [CF Packmen](https://codeforces.com/contest/847/problem/E)  
-5 [CF Maximum width](https://codeforces.com/contest/1492/problem/C)
+5 [CF Maximum width](https://codeforces.com/contest/1492/problem/C)  
 dp  
 1 [AT Educational DP Contest M - Candies](https://atcoder.jp/contests/dp/tasks/dp_m)  
 2 [AT Educational DP Contest I - Coins](https://atcoder.jp/contests/dp/tasks/dp_i)  
