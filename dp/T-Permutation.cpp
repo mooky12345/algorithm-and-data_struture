@@ -5,4 +5,7 @@ int main(){
     cin>>a;
     string s;
     cin>>s;
+    for(int i = 1;i<=a;i++){
+        
+    }
 }

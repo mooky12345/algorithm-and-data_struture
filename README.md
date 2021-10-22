@@ -25,15 +25,15 @@ dp
 4 [AT C - Bowls and Dishes](https://atcoder.jp/contests/abc190/tasks/abc190_c)   
 5 [zerojudge 祖靈想要下棋!!!](https://zerojudge.tw/ShowProblem?problemid=a160)    
 圖論  
-1 []()  
-2 []()  
-3 []()  
+1 [AT D - Decayed Bridges](https://atcoder.jp/contests/abc120/tasks/abc120_d)    
+2 [CF E Andrew and Taxi](https://codeforces.com/contest/1100/problem/E)   
+3 [CF825 E Minimal Labels](https://codeforces.com/contest/825/problem/E)  
 4 []()  
 5 []()  
 進階資料結構 
-1 []()  
-2 []()  
-3 []()  
+1 [CSES 1734 Distinct Values Queries](https://cses.fi/problemset/task/1734)  
+2 [CF F. Array Stabilization (GCD version)](https://codeforces.com/contest/1547/problem/F)
+3 [CF Balanced Substring](https://codeforces.com/problemset/problem/873/B) 
 4 []()  
 5 []()  
 數論   
