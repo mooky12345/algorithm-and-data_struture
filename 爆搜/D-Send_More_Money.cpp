@@ -17,7 +17,7 @@ int main(){
 	for(int i=0;i<a.size();i++)st[a[i]] = 1;
 	for(int i=0;i<b.size();i++)st[b[i]] = 1;
 	for(int i=0;i<c.size();i++)st[c[i]] = 1;
-	if(st.size()>=10){
+	if(st.size()>10){
 		cout<<"UNSOLVABLE";
 		return 0;
 	}
