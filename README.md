@@ -34,7 +34,7 @@ dp
 1 [CSES 1734 Distinct Values Queries](https://cses.fi/problemset/task/1734)   
 2 [CF F. Array Stabilization (GCD version)](https://codeforces.com/contest/1547/problem/F)  
 3 [CF Balanced Substring](https://codeforces.com/problemset/problem/873/B)   
-4 []()  
+4 [ATF - Must Be Rectangular!]()  
 5 []()  
 數論   
 1 []()  
@@ -42,7 +42,7 @@ dp
 3 []()  
 4 [AT B-Squares](https://atcoder.jp/contests/arc125/tasks/arc125_b)  
 5 [tioj 銀河捷運](https://tioj.ck.tp.edu.tw/problems/2190)  
-幾何   
+其他題型   
 1 []()  
 2 []()  
 3 []()  
