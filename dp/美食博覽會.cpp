@@ -14,7 +14,7 @@ using namespace std;
 int n,k,dp[2][N],lft[N],arr[N];
 int mp[N];
 
-signed main(){
+int main(){
     AC
     cin>>n>>k;
     memset(dp,0,sizeof(dp));
