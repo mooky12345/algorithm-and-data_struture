@@ -30,7 +30,7 @@ int ck(int x){
         for(int i=0;i<ve[u].size();i++){
  
             int v=ve[u][i];
-            //printf("from=%d to=%d \n",u,v);
+
             if(--in[v]==0){
                 q.push(v);
                 top[v]=++now;
@@ -45,9 +45,9 @@ int ck(int x){
  
 int main(){
     int x,y,z,mma=0;
-    scanf("%d%d",&n,&m);
+    cin>>n>>m;
     for(int i=1;i<=m;i++){
-        scanf("%d%d%d",&x,&y,&z);
+        cin>>x>>y>>z;
         e[i].fr=x,e[i].to=y,e[i].val=z;
         mma=max(mma,z);
     }
@@ -65,8 +65,8 @@ int main(){
             }
         }
     }
-    printf("%d %d\n",ans,road.size());
+    cout<<ans<<road.size();
     for(int i=0;i<road.size();i++)
-        printf("%d%c",road[i],i==road.size()-1?'\n':' ');
+        cout<<road[i]<< (i==road.size()-1?'\n':' ');
 	return 0;
 }

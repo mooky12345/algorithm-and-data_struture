@@ -31,7 +31,7 @@ dp
 4 [CF F. Figure Fixing](https://codeforces.com/contest/1537/problem/F)  
 5 [CSES Flight Routes](https://cses.fi/problemset/task/1196)  
 資料結構     
-1 [CSES 1734 Distinct Values Queries](https://cses.fi/problemset/task/1734)   
+1 [CSES Distinct Values Queries](https://cses.fi/problemset/task/1734)   
 2 [CF F. Array Stabilization (GCD version)](https://codeforces.com/contest/1547/problem/F)  
 3 [CF Balanced Substring](https://codeforces.com/problemset/problem/873/B)   
 4 [AT F - Must Be Rectangular!](https://atcoder.jp/contests/abc131/tasks/abc131_f)  
