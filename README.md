@@ -35,7 +35,7 @@ dp
 2 [CF F. Array Stabilization (GCD version)](https://codeforces.com/contest/1547/problem/F)  
 3 [CF Balanced Substring](https://codeforces.com/problemset/problem/873/B)   
 4 [AT F - Must Be Rectangular!](https://atcoder.jp/contests/abc131/tasks/abc131_f)  
-5 [d030: 例題 P-3-6. 砍樹](https://judge.tcirc.tw/ShowProblem?problemid=d030)  
+5 [d030:P-3-6. 砍樹](https://judge.tcirc.tw/ShowProblem?problemid=d030)  
 數論   
 1 []()  
 2 []()  
