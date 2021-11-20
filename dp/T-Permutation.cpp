@@ -3,7 +3,7 @@ using namespace std;
 using ll = long long;
 #define rep(i, a, b) for (ll i = a; i < b; i++)
 #define rrep(i, a, b) for (ll i = b - 1; a <= i; i--)
-ll MOD = 1'000'000'007;
+ll MOD = 1000000007;
  
 ll N, dp[3010][3010], cum[3010];
 string s;
