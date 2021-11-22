@@ -3,7 +3,7 @@
 #define ld long double
 #define int long long
 #define N 1000005
-#define Orz ios::sync_with_stdio(0),cin.tie(0)
+#define AC ios::sync_with_stdio(0),cin.tie(0);
 #define INF 2e18
 #define rep(i,l,r) for(int i=l;i<=r;i++)
 #define all(x) x.begin(),x.end()
@@ -14,8 +14,8 @@ using namespace std;
 int n,k,dp[2][N],lft[N],arr[N];
 int mp[N];
 
-signed main(){
-    Orz;
+int main(){
+    AC
     cin>>n>>k;
     memset(dp,0,sizeof(dp));
     memset(lft,0,sizeof(lft));

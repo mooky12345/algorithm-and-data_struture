@@ -28,21 +28,21 @@ dp
 1 [AT D - Decayed Bridges](https://atcoder.jp/contests/abc120/tasks/abc120_d)    
 2 [CF E Andrew and Taxi](https://codeforces.com/contest/1100/problem/E)   
 3 [CF825 E Minimal Labels](https://codeforces.com/contest/825/problem/E)  
-4 []()  
-5 []()  
-進階資料結構     
-1 [CSES 1734 Distinct Values Queries](https://cses.fi/problemset/task/1734)   
+4 [CF F. Figure Fixing](https://codeforces.com/contest/1537/problem/F)  
+5 [CSES Flight Routes](https://cses.fi/problemset/task/1196)  
+資料結構     
+1 [CSES Distinct Values Queries](https://cses.fi/problemset/task/1734)   
 2 [CF F. Array Stabilization (GCD version)](https://codeforces.com/contest/1547/problem/F)  
 3 [CF Balanced Substring](https://codeforces.com/problemset/problem/873/B)   
-4 []()  
-5 []()  
+4 [AT F - Must Be Rectangular!](https://atcoder.jp/contests/abc131/tasks/abc131_f)  
+5 [d030:P-3-6. 砍樹](https://judge.tcirc.tw/ShowProblem?problemid=d030)  
 數論   
 1 []()  
 2 []()  
 3 []()  
 4 [AT B-Squares](https://atcoder.jp/contests/arc125/tasks/arc125_b)  
 5 [tioj 銀河捷運](https://tioj.ck.tp.edu.tw/problems/2190)  
-幾何   
+其他題型   
 1 []()  
 2 []()  
 3 []()  
