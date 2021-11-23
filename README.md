@@ -13,7 +13,7 @@ dp
 4 [AT Educational DP Contest T - Permutation](https://atcoder.jp/contests/dp/tasks/dp_t)  
 5 [zerojubge 4. 美食博覽會](https://zerojudge.tw/ShowProblem?problemid=g278)    
 樹   
-1 []()  
+1 [CSES Distinct Colors](https://cses.fi/problemset/task/1139)  
 2 []()  
 3 []()  
 4 []()  
