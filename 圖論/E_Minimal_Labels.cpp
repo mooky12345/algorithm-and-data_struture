@@ -1,31 +1,27 @@
-#include <cstdio>
-#include <cstring>
-#include <algorithm>
-#include <queue>
-#include <vector>
+#include<bits/stdc++.h>
 using namespace std;
 const int N = 100000, M = 100000;
  
-vector<int> rev[N+1]; // reverse edge
-int deg[N+1]; // degree of vertex
-int label[N+1]; // label sequence
+vector<int> rev[N+1]; 
+int deg[N+1];
+int label[N+1]; 
 priority_queue<int> que;
  
 int main()
 {
     int n, m;
-    scanf("%d%d", &n, &m);
+    cin>>n>>m;
     memset(deg, 0, sizeof deg);
     for(int f, t, i=0; i<m; ++i)
     {
-        scanf("%d%d", &f, &t);
+        cin>>f>>t;
         rev[t].push_back(f);
         ++deg[f];
     }
     for(int i=1; i<=n; ++i)
         if(!deg[i])
             que.push(i);
-    for(int lab=n, t; lab > 0; --lab) // desc
+    for(int lab=n, t; lab > 0; --lab) 
     {
         t = que.top();
         que.pop();
@@ -35,6 +31,6 @@ int main()
                 que.push(rev[t][i]);
     }
     for(int i=1; i<=n; ++i)
-        printf("%d%c", label[i], i==n?'\n':' ');
+        cout<<label[i]<<" ";
     return 0;
 }
