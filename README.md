@@ -44,8 +44,8 @@ dp
 5 [tioj 銀河捷運](https://tioj.ck.tp.edu.tw/problems/2190)  
 其他題型   
 1 [AT C-LIS to Original Sequence](https://atcoder.jp/contests/arc125/tasks/arc125_c)  
-2 []()  
-3 []()  
-4 []()  
-5 []()  
+2 [CF F2. Nearest Beautiful Number (hard version)](https://codeforces.com/contest/1560/problem/F2)  
+3 [CF D. Nature Reserve](https://codeforces.com/contest/1059/problem/D)  
+4 [B. Two Tables](https://codeforces.com/contest/1555/problem/B)  
+5 [B. Shifting Sort](https://codeforces.com/contest/1579/problem/B)  
 

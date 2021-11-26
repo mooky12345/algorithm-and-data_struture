@@ -29,3 +29,4 @@ int main(){
 	}
 	for(int i=a;i>=1;i--)if(!b1[i])cout<<i<<" ";
 }
+                                          
