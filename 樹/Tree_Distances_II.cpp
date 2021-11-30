@@ -1,7 +1,6 @@
 #include<bits/stdc++.h>
 #define pii pair<int,int>
 #define ll long long int
-<<<<<<< HEAD
 #define inf 99999999
 #define pb push_back
 #define AC ios::sync_with_stdio(0);cin.tie(0);
@@ -9,18 +8,6 @@ using namespace std;
 
 
 
-=======
-#define f first
-#define s second
-#define inf 99999999
-#define pb push_back
-#define intt __int128_t
-#define AC ios::sync_with_stdio(0);cin.tie(0);
-using namespace std;
- 
- 
- 
->>>>>>> 5a11708b2120f48fa41124fc936752fbf8ffb14a
 vector<int> e[200005];
 int cnt[200005];
 ll ans[200005];
@@ -62,8 +49,4 @@ int main(){
 	ans[1] = sum; 
 	dfs2(sum,1,1);
 	for(int i=1;i<=a;i++)cout<<ans[i]<<" ";
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 5a11708b2120f48fa41124fc936752fbf8ffb14a

@@ -1,5 +1,14 @@
 #include <bits/stdc++.h>
 using namespace std;
+#define pb push_back
+#define f first
+#define s second
+#define ll long long int
+#define fast ios::sync_with_stdio(0); cin.tie(0);
+#define pii pair<int,int>
+#define inf 9999999999
+#define MOD 1e9+7
+using namespace std;
  
 int n, q, a, b, s, t, k, d[100005], p[100005], sp[100005][18];
 vector <int> v[100005];
