@@ -1,6 +1,11 @@
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
+#define pii pair<int,int>
+#define ll long long int
+#define inf 99999999
+#define pb push_back
+#define AC ios::sync_with_stdio(0);cin.tie(0);
 using namespace std;
- 
+
 int n, m, s, t, w, z;
 int e[401][401], d1[401], d2[401], a[160000];
 queue<int> Q;
@@ -22,7 +27,6 @@ int f(int v, int d[401]) {
 			}
 		}
 	}
- 
 	if (d[n] == 500)
 		return -1;
  
