@@ -50,11 +50,11 @@ int main(){
             int i = que.front(); que.pop();
             for(int j = 0; j < n; j++) if(dis[j] == -1 && G[i][j] != -1){
                 dis[j] = dis[i] + 1;
-                que.push(j);
+                qu.push(j);
             }
         }
-        ans[e] = dis[n-1];
-        G[edge[e].first][edge[e].second] = e;
+        ans[y] = dis[n-1];
+        G[edge[y].first][edge[y].second] = y;
 	}
 	for(int i=0;i<m;i++)cout<<ans[i]<<"\n";
 }
