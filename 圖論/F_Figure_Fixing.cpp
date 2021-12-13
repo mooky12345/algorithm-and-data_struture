@@ -16,28 +16,15 @@ bool dfs(int x){
 	for(auto y:g[x]){
 		if(vis[y]<0){
 			vis[y]=vis[x]^1;if(dfs(y))t=1;
-		}else{
+		}
+		else{
 			if(vis[x]==vis[y])t=1;
 		}
 	}
 	return t;
 }
-void sol(){
-	for(int i=1;i<=n;i++)if(vis[i]<0){
-		sum=s[0]=s[1]=0;
-		vis[i]=0;
-		if(!dfs(i)&&s[0]!=s[1]){
-			cout<<"NO\n";return;
-		}
-		if(sum&1){
-			cout<<"NO\n";return;
-		}
-	}
-	cout<<"YES\n";
-}
 int main(){
-	ios_base::sync_with_stdio(false);
-    cin.tie(0);
+	AC
     cin>>T;
     while(T--){
 		cin>>n>>m;
@@ -45,8 +32,20 @@ int main(){
 		for(int i=1;i<=n;i++)cin>>b[i],b[i]-=a[i];
 		for(int i=0;i<m;i++){
 			int u,v;cin>>u>>v;
-			g[u].push_back(v),g[v].push_back(u);
+			g[u].push_back(v);
+			g[v].push_back(u);
 		}
-		sol();
+		for(int i=1;i<=n;i++)
+		if(vis[i]<0){
+			sum=s[0]=s[1]=0;
+			vis[i]=0;
+			if(!dfs(i)&&s[0]!=s[1]){
+				cout<<"NO\n";return;
+			}
+			if(sum&1){
+				cout<<"NO\n";return;
+			}
+		}
+		cout<<"YES\n";
 	}
 }

@@ -6,54 +6,55 @@
 #define AC ios::sync_with_stdio(0);cin.tie(0);
 using namespace std;
 
-int n, m, s, t, w, z;
-int e[401][401], d1[401], d2[401], a[160000];
-queue<int> Q;
- 
-int f(int v, int d[401]) {
-	fill(d, d + n + 1, 500);
-	d[1] = 0;
-	Q.push(1);
- 
-	while (!Q.empty()) {
-		int k = Q.front();
-        Q.pop();
-        for (int i = 1; i <= n; i++) {
-			if (e[k][i] > 0 && e[k][i] != v) {
-				if (d[i] > d[k] + 1) {
-					d[i] = d[k] + 1;
-					Q.push(i);
-				}
-			}
-		}
+int s, t, w, z;
+int edge[501][501];
+int ans[501];
+int n,m;
+int main(){
+	AC
+	cin>>n>>m;
+    for (int i = 0; i < m; i++) {
+		int u,v;
+		cin>>u>>v;
+		e[u][v] = i;
+		edge[i] = make_pair(u,v);
 	}
-	if (d[n] == 500)
-		return -1;
- 
-	return d[n];
+	queue<int> q;
+	vector<pii> record(n);
+	vector<int> dis(n,-1); dis[0] = 0;
+	q.pb(0)
+    while(!q.empty()){
+        int i = q.front(); q.pop();
+        for(int j = 0; j < n; j++) if(dis[j] == -1 && e[i][j] != -1){
+            dis[j] = dis[i] + 1;
+            record[j] = make_pair(i,e[i][j]);
+            q.push(j);
+        }
+    }
+    if(dis[n-1] == -1){
+        for(int i = 0; i < m; i++) cout<<-1<<"\n";
+        return 0;
+    }
+	vector<int> path;
+	int cur = n-1;
+	while(!cur){
+		path.pb(record[cur].second);
+		cur = record[cur].first;
+	}
+	vector<int> ans(m,dis[n-1]);
+	for(int y:path){
+		e[edge[y].first][edge[y].second] = -1;
+        queue<int> que; que.push(0);
+        vector<int> dis(n, -1); dis[0] = 0;
+        while(!que.empty()){
+            int i = que.front(); que.pop();
+            for(int j = 0; j < n; j++) if(dis[j] == -1 && G[i][j] != -1){
+                dis[j] = dis[i] + 1;
+                que.push(j);
+            }
+        }
+        ans[e] = dis[n-1];
+        G[edge[e].first][edge[e].second] = e;
+	}
+	for(int i=0;i<m;i++)cout<<ans[i]<<"\n";
 }
- 
-int main()
-{
-	cin >> n >> m;
- 
-	for (int i = 0; i < m; i++) {
-		cin >> s >> t;
-		e[s][t] = i + 1;
-	}
- 
-	z = f(0, d1);
-	fill(a, a + m + 1, z);
- 
-	if(z > 0){
-		w = n;
-        while (w != 1) {
-			for (int i = 1; i <= n; i++) {
-				if (e[i][w] > 0 && d1[i] == d1[w] - 1) {
-					int u = e[i][w];
-                    a[u] = f(u, d2);
-					w = i;
-					break;
-				}
-			}
-		}
