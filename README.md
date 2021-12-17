@@ -1,4 +1,4 @@
-# c++ 解題連結
+# c++ 題目連結
 
 貪心  
 1 [AT 01Sequence](https://atcoder.jp/contests/abc216/tasks/abc216_g)  
